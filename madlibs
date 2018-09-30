@@ -1,0 +1,11 @@
+def main():
+    print('welcome to madlibs! it is about to get crazy!')
+    verb = input('please enter an action word: ')
+    noun = input('please enter the name of a person: ')
+    adj = input('please enter a descriptive word: ')
+    output(verb, noun, adj)
+def output(verb, noun, adj):
+    print('whoa watch out we are', verb, 'out of time!')
+    print('have you seen', noun, '?')
+    print(noun, 'is looking spooky today.')
+main()
